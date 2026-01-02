@@ -48,7 +48,7 @@
                 return;
             }
 
-            let percent = (obtained * 100) / 100;
+            let percent = (obtained * 100) / total;
             document.getElementById("percentage").value = percent.toFixed(2) + "%";
 
             if(percent >= 80){
